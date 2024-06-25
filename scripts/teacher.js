@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
         const teacherItem = document.createElement('div');
         teacherItem.className = 'teacher-item';
         teacherItem.innerHTML = `
-            <h3>${feedback.teacher}</h3>
+            <h2>${feedback.teacher}</h2>
             <p>${feedback.feedback}</p>
         `;
         teacherForumContent.appendChild(teacherItem);
