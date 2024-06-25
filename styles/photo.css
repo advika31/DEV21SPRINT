@@ -1,0 +1,31 @@
+.photo-booth {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+  }
+  
+.upload-section, .filters-section, .photo-preview {
+    margin-bottom: 20px;
+  }
+  
+  .photo-preview img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .gallery {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+  }
+  
+  .gallery-photo {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .gallery-photo img {
+    max-width: 150px;
+    height: auto;
+  } 
+  

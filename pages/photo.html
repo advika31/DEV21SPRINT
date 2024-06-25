@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="photo" class="photos">
+        <div class="photo-booth">
+          <h2>Photo Booth</h2>
+          <div class="upload-section">
+              <input type="file" id="photo-upload" accept="image/*">
+              <button id="capture-photo">Capture Photo</button>
+          </div>
+          <div class="photo-preview">
+              <img id="photo-preview-img" src="" alt="Your Photo">
+          </div>
+          <button id="share-photo">Share Photo</button>
+      </div>
+      <div class="gallery">
+          <h2>Photo Gallery</h2>
+          <div id="gallery-photos"></div>
+      </div>
+      </section>
+    <script src="../scripts/photo.js"></script>  
+</body>
+</html>
