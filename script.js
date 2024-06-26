@@ -3,10 +3,14 @@ function showSection(sectionId) {
     document.getElementById('non-academic').style.display = 'none';
     document.getElementById(sectionId).style.display = 'block';
     document.getElementById('card-container').classList.add('hidden');
-  document.getElementById('features-container').classList.remove('hidden');
+    document.getElementById('features-container').classList.remove('hidden');
 
   }
-  
+
+function navigateTo(url){
+  window.location.href = url;
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     const cardContainer = document.getElementById('card-container');
     const featuresContainer = document.getElementById('features-container');
