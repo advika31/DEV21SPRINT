@@ -11,8 +11,79 @@ body {
   text-align: center;
 }
 
-section {
+.card-container{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card{
+  border: 3px solid #FBFADA;
+  width: 43.9%;
+  border-radius: 3rem;
+  padding: 1rem;
+  padding-top: 6rem;
+  /* margin: 0.5rem; */
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  color: #FBFADA;
+  height: 5rem;
+  background-color: #436850;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* margin: 2rem; */
   margin-bottom: 2rem;
+  margin-top: 2.5rem;
+  /* margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 8rem;
+  height: 13rem;
+  padding-top: 15rem; */
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background-color: #12372A;
+}
+
+.section {
+  /* margin-bottom: 2rem; */
+  display: none;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/* a{
+text-decoration: none;
+color: inherit;
+display: block;
+width: 100%;
+height: 100%;
+} */
+
+.wrapper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 700px;
+  margin-top: -100px ;
+  width: 700px;
+  margin-left: -200px ;
+}
+
+h1{
+  color: #FBFADA;
+}
+
+.card a{
+  text-decoration: none;
+  color: #FBFADA;
 }
 
 .societies, .events, .roadmap, .places, .teachers {
@@ -58,69 +129,3 @@ footer {
   bottom: 0;
 }
 
-.card{
-  
-  border: 3px solid #FBFADA;
-  width: 43.9%;
-  border-radius: 3rem;
-  padding: 1rem;
-  padding-top: 6rem;
-  /* margin: 0.5rem; */
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  cursor: pointer;
-  color: #FBFADA;
-  height: 5rem;
-  background-color: #436850;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  /* margin: 2rem; */
-  margin-bottom: 2rem;
-  margin-top: 2.5rem;
-  /* margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 8rem;
-  height: 13rem;
-  padding-top: 15rem; */
-}
-
-.card-container{
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.card:hover {
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  background-color: #12372A;
-}
-
-.section {
-  display: none;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.hidden {
-  display: none;
-}
-
-.wrapper{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 700px;
-  margin-top: -100px ;
-  width: 700px;
-  margin-left: -200px ;
-}
-
-h1{
-  color: #FBFADA;
-}
-
-.card a{
-  text-decoration: none;
-  color: #FBFADA;
-}
