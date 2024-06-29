@@ -2,12 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #12372A;
 }
 
 .heading {
-  background-color: #000000;
-  color: white;
+  background-color: #12372A;
   padding: 1rem;
   text-align: center;
 }
@@ -20,14 +19,23 @@ body {
 }
 
 .card{
-  border: 2px solid black;
+  border: 3px solid #FBFADA;
   width: 43.9%;
-  border-radius: 5rem;
+  border-radius: 3rem;
   padding: 1rem;
-  margin: 0.5rem;
+  padding-top: 6rem;
+  /* margin: 0.5rem; */
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   cursor: pointer;
+  color: #FBFADA;
+  height: 5rem;
+  background-color: #436850;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* margin: 2rem; */
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
   /* margin-right: 1rem;
   margin-left: 1rem;
   margin-top: 8rem;
@@ -37,6 +45,7 @@ body {
 
 .card:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background-color: #12372A;
 }
 
 .section {
@@ -68,8 +77,17 @@ height: 100%;
   margin-left: -200px ;
 }
 
+h1{
+  color: #FBFADA;
+}
+
+.card a{
+  text-decoration: none;
+  color: #FBFADA;
+}
+
 .societies, .events, .roadmap, .places, .teachers {
-  background-color: white;
+  background-color: #12372A;
   padding: 1rem;
   border-radius: 5px;
 }
@@ -80,7 +98,7 @@ height: 100%;
 }
 
 .feedback-form {
-  background-color: white;
+  background-color: #12372A;
   padding: 1rem;
   border-radius: 5px;
 }
@@ -102,8 +120,8 @@ height: 100%;
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #ADBC9F;
+  color: BLACK;
   text-align: center;
   padding: 1rem;
   position: fixed;
