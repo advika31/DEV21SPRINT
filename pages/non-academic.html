@@ -5,19 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>College Societies and Events</title>
   <link rel="icon" href= "resources/woman-female-icon.png">
-
-  <!-- Style sheets -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="./styles/theme.css">
-
+  <link rel="stylesheet" href="../style.css">
 </head>
 <div>
     <div class="heading">
       <h1>
           YOUR GO-TO SENIOR
       </h1>
-
-      <!-- theme changer by advika -->
       <span class="theme-toggle">
         <input type="checkbox" id="darkmode-toggle" />
         <label for="darkmode-toggle" class="toggle-label">
@@ -25,27 +19,28 @@
           <img src="./resources/moon.png" alt="moon" id="icon moon"> -->
         </label>
       </span>
-
       <hr>
   </div>
 
-<div class="card-container" id="card-container">
-  <div class="card" onclick="navigateTo('./pages/academic.html')">
-      ACADEMIC
-  </div>
-  <div class="card" onclick="navigateTo('./pages/non-academic.html')">
-      NON-ACADEMIC
-  </div>
-</div>
-</div>
-
+    <div id="card-container" class="card-container">
+        <div class="card" onclick="navigateTo('./places.html')">
+          Places to Visit
+        </div>
+        <div class="card" onclick="navigateTo('./photo.html')">
+          Photo Booth
+        </div>
+        <div class="card" onclick="navigateTo('./feedback.html')">
+          Feedback
+        </div>
+      </div>
+    </div>
+    
 <footer>
-  <p>&copy; 2024 Portal</p>
-</footer>
-
-<!-- SCRIPTS -->
-  <script src="script.js"></script>
-  <script src="./scripts/theme.js"></script>
+    <p>&copy; 2024 Portal</p>
+  </footer>
   
-</body>
-</html>
+    <script src="../script.js"></script>
+    <script src="../scripts/theme.js"></script>
+  </body>
+  </html>
+  

@@ -1,0 +1,8 @@
+/* THIS CSS FILE IS MADE BY ADVIKA */
+
+@import url('theme.css');
+
+body{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}

@@ -1,3 +1,4 @@
+/* THIS JS FILE IS MADE BY ADVIKA */
 
 document.addEventListener('DOMContentLoaded', () => {
     const roadmap = [

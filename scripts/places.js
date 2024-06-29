@@ -1,3 +1,5 @@
+/* THIS JS FILE IS MADE BY ADVIKA */
+
 document.addEventListener('DOMContentLoaded', () => {
     const places = [
         { name: 'Central Park', description: 'A beautiful park near the college.', rating: 4.5 },

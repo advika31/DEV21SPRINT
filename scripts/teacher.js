@@ -1,3 +1,5 @@
+/* THIS JS FILE IS MADE BY ADVIKA */
+
 document.addEventListener('DOMContentLoaded', function(){
     const teacherForum = [
         { teacher: 'Jasdeep', feedback: 'Very bkl teacher' },

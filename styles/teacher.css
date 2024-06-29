@@ -1,0 +1,19 @@
+@import url('theme.css');
+
+h1{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 35px;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+h2{
+    color: var(--text-color);
+}
+
+p{
+    color: var(--tertiary-color);
+}

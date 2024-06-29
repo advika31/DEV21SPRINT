@@ -1,0 +1,30 @@
+/* THIS CSS FILE IS MADE BY ADVIKA */
+
+@import url('theme.css');
+
+body{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+#feedback-form {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+#feedback-form input, #feedback-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid var(--tertiary-color);
+    border-radius: 5px;
+  }
+  
+#feedback-form button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+  }

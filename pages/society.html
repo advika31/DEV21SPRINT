@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="society.css">
+    <link rel="stylesheet" href="../styles/society.css">
 </head>
 <body>
+    <span class="theme-toggle">
+        <input type="checkbox" id="darkmode-toggle" />
+        <label for="darkmode-toggle" class="toggle-label">
+          <!-- <img src="./resources/sun.png" alt="sun" id="icon sun">
+          <img src="./resources/moon.png" alt="moon" id="icon moon"> -->
+        </label>
+    </span>
+      
     <section id="societies" class="societies">
         <h2>Societies and Clubs</h2>
         <input type="text" id="search" placeholder="Search Societies" >
         <div id="society-list">
-            <div class="card-cont1">
+            <!-- <div class="card-cont1">
                 <div class="card" id="hypnotics">
                     <a href="./socities/hypnotics.html" >HYPNOTICS<br><br>(dance society)</a>
                 </div>
@@ -21,11 +29,12 @@
                 <div class="card" id="tarannum">
                     <a href="./socities/tarannum.html">TARANNUM<br><br>(music society)</a>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>
 
     <script src="../scripts/society.js"></script>
+    <script src="../scripts/theme.js"></script>
 </body>
 </html>

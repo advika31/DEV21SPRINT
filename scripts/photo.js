@@ -1,3 +1,5 @@
+/* THIS JS FILE IS MADE BY ADVIKA */
+
 document.addEventListener('DOMContentLoaded', function() {
     const photoUpload = document.getElementById('photo-upload');
     const capturePhoto = document.getElementById('capture-photo');

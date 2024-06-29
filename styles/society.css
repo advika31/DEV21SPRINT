@@ -1,0 +1,100 @@
+/* this css file is made by ANUSHKA */
+@import url('theme.css');
+
+body{
+    background-color: var(--primary-color);
+}
+h2{
+    text-align: center;
+    color: var(--text-color);
+    font-size: 50px;
+    /* border: 2px solid #45A29E ; */
+
+}
+
+::placeholder{
+    color: var(--text-color);
+    opacity: 20%;
+    font-size: 150%;
+}
+
+.societies input{
+    width: 40%;
+    /* height: 150%; */
+    padding: .5rem;
+    /* margin-left: 20%;
+    margin-right: 20%rem; */
+    border: 2px solid var(--tertiary-color) ; 
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--text-color);
+    /* font-size: 150%; */
+    font-size: 1rem;
+    margin: 1rem auto;
+    display: block;
+}
+
+#society-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.card {
+    cursor: pointer;
+    border: 2px solid var(--text-color);
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    width: 29%;
+    color: var(--text-color);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: x-large;
+    text-align: center;
+}
+
+.card p {
+    margin: 0.5rem 0;
+    font-size: large;
+}
+
+.card h4 {
+    font-size: larger;
+    text-align: center;
+    margin-top:  -10px;
+}
+
+.card:hover {
+    background-color: var(--primary-color);
+}
+/* .card-cont1{
+    margin-top: 3rem;
+    color: #FBFADA;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    cursor: pointer;
+    border: 2px solid #FBFADA;
+    background-color: #436850;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.card a{
+    text-decoration: none;
+    color: #FBFADA;
+    font-size: 20px;
+}
+
+.card.hover{
+    background-color: #12372A;
+}
+ */

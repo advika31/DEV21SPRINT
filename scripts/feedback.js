@@ -1,3 +1,5 @@
+/* THIS JS FILE IS MADE BY ADVIKA */
+
 document.addEventListener ('DOMContentLoaded', function(){
     const feedbackForm = document.getElementById('feedback-form');
     feedbackForm.addEventListener('submit', (event) => {

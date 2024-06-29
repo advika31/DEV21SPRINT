@@ -1,32 +1,32 @@
-function showSection(sectionId) {
-    document.getElementById('academic').style.display = 'none';
-    document.getElementById('non-academic').style.display = 'none';
-    document.getElementById(sectionId).style.display = 'block';
-    document.getElementById('card-container').classList.add('hidden');
-    document.getElementById('features-container').classList.remove('hidden');
-
-  }
+// THIS JS FILE IS MADE BY ADVIKA
 
 function navigateTo(url){
   window.location.href = url;
-}
+  }
+  
+// function showSection(sectionId) {
+//   document.getElementById('academic').style.display = 'none';
+//   document.getElementById('non-academic').style.display = 'none';
+//   document.getElementById(sectionId).style.display = 'block';
+//   document.getElementById('card-container').classList.add('hidden');
+//   document.getElementById('features-container').classList.remove('hidden');
 
-document.addEventListener('DOMContentLoaded', function () {
-    const cardContainer = document.getElementById('card-container');
-    const featuresContainer = document.getElementById('features-container');
+// }
 
-    featuresContainer.addEventListener('click', function () {
-      featuresContainer.classList.add('hidden');
-      cardContainer.classList.remove('hidden');
-    });
+// document.addEventListener('DOMContentLoaded', function () {
+//   const cardContainer = document.getElementById('card-container');
+//   const featuresContainer = document.getElementById('features-container');
 
-    cardContainer.addEventListener('click', function () {
-      cardContainer.classList.add('hidden');
-      featuresContainer.classList.remove('hidden');
-    });
-  });
+//   featuresContainer.addEventListener('click', function () {
+//     featuresContainer.classList.add('hidden');
+//     cardContainer.classList.remove('hidden');
+//   });
 
-
+//   cardContainer.addEventListener('click', function () {
+//     cardContainer.classList.add('hidden');
+//     featuresContainer.classList.remove('hidden');
+//   });
+// });
 
 
 
@@ -40,13 +40,10 @@ document.addEventListener('DOMContentLoaded', function () {
 //   events.forEach(event => {
 //       const eventItem = document.createElement('div');
 //       eventItem.className = 'event-item';
-//       eventItem.innerHTML = `
+//       eventItem.innerHTML = 
 //           <h3>${event.title}</h3>
 //           <p>Date: ${event.date}</p>
 //           <p>${event.description}</p>
-//       `;
+//       ;
 //       eventList.appendChild(eventItem);
 //   });
-
-
-
